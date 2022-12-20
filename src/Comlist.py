@@ -1,0 +1,20 @@
+import Keys
+commands = ["lsfs - all files","add <id> - add user",
+            "rem <id> - remove user",
+            "attempts - list the attempts in console window",
+            "attemptsls - send the attemp list to your telegram",
+            "allusers - sends the list of users as telegram message",
+            "ttable - sends the total number of periods on all days",
+            "cclasses - calculates the total percentage of every subject",
+            "minclasses - calculates the minimum number of classes you must attend",
+            "allmsgs <0/1> - 0: send txt file ,1: display in telegram",
+            "all - send a message to all users",
+            "pm <id> - send a private message to user with id",
+            f"erpin - login for admin {Keys.name}",
+            "dm - direct method call for testing erp"
+            "--Guest--",
+            "/g <username> <password> - login to erp",
+            "/cap <captcha> - enter the captcha after sending the photo",
+            "/g att - calculate the total attendance percentage",
+            "/g minclasses - calculate the number of classes you can skip",
+            ]
