@@ -11,10 +11,12 @@ A Telegram bot made in python for students of KL University
     4. After placing it in the 'Keys' Module, run the following commands in the terminal
         1. `python sqlcreate.py 0` : You don't need to run this if you have already executed it once.
         2. `python sqlcreate.py 1` : You should run this if you have updated your User ID after running the first command.
+4. You can install the chrome driver which is required for the Driver_Path from the website : https://chromedriver.chromium.org/downloads
         
 ### Steps to use
 1. Copy the files in src to your PyCharm Editor
-2. Update all the fields in Keys.py file.
+2. Install the required components in `requirements.txt`
+3. Update all the fields in Keys.py file.
     1. API_KEY : Your telegram api key
     2. U_ID : Your telegram user ID
     3. name : How would you like to referred by this program
@@ -23,10 +25,10 @@ A Telegram bot made in python for students of KL University
     6. TEST_PATH : A sample local path to test some functionalities. Preferable with different types of files
     7. Student_ID : Your KLU Student ID (10 digit number given by university)
     8. SEMID : 0 if Odd Sem || 1 if Even Sem || 2 if Summer Sem
-3. Now, in the terminal run the following commands (Apple)
+4. Now, in the terminal run the following commands (Apple)
     1. `python sqlcreate.py 0` - Create a new Database and then create the necessary tables
     2. `python sqlcreate.py 1` - if you did not update your User ID before running the first command
-4. Now, run the main.py to start the bot
+5. Now, run the main.py to start the bot
 
 ### Some Basic commands after running the bot (Should be typed in telegram)
 1. `/g <KLU_ID> <KLU_Password>` : Login to your ERP
